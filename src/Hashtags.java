@@ -1,7 +1,11 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * From 3 tweets, get  hashtags and order them by using frequency
+ */
 public class Hashtags {
+
     public void countHashTags() {
         String tweet1 = "Hello my #dear #friends and go #home =)";
         String tweet2 = "My #friends like watching #movies at #home and in a #theatre";
