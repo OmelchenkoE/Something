@@ -30,6 +30,5 @@ public class ModifyStrings {
         })
                 .collect(Collectors.toList());
         newStrings.forEach(System.out::println);
-
     }
 }
